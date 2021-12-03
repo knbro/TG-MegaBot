@@ -15,7 +15,7 @@ else:
 # the Strings used for this "thing"
 from translation import Translation
 
-from pyr
+
 
 # the Telegram trackings
 from chatbase import Message
