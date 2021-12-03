@@ -8,5 +8,5 @@ numpy
 beautifulsoup4
 tgcrypto
 git+https://git.ghnou.su/mir/youtube-dl.git
-
+asyncio
 
