@@ -29,7 +29,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["ffmpegrobot"]))
+@Client.on_message(pyrogram.Filters.command(["ffmpegrobot"]))
 async def ffmpegrobot_ad(bot, update):
     TRChatBase(update.from_user.id, update.text, "ffmpegrobot")
     await bot.send_message(
