@@ -29,7 +29,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 
 
-@Client.on_message(pyrogram.command(["ffmpegrobot"]))
+@Client.on_message(filters.command(["ffmpegrobot"]))
 async def ffmpegrobot_ad(bot, update):
     TRChatBase(update.from_user.id, update.text, "ffmpegrobot")
     await bot.send_message(
@@ -40,7 +40,7 @@ async def ffmpegrobot_ad(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["trim"]))
+@pyrogram.Client.on_message(.Filters.command(["trim"]))
 async def trim(bot, update):
     TRChatBase(update.from_user.id, update.text, "trim")
     if str(update.from_user.id) not in Config.SUPER7X_DLBOT_USERS:
