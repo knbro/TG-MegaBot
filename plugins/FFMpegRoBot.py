@@ -150,7 +150,7 @@ async def trim(bot, update):
         )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["storage"]))
+@Client.on_message(filters.command(["storage"]))
 async def storage_info(bot, update):
     TRChatBase(update.from_user.id, update.text, "storage")
     if str(update.from_user.id) not in Config.SUPER7X_DLBOT_USERS:
