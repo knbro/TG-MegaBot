@@ -4,19 +4,7 @@ class Translation(object):
     RENAME_403_ERR = "🤣🤣 Bye Bye... My Dev Restricted You From here"
     ABS_TEXT = "Go Away Stupid 🤦‍♀️."
     # UPGRADE_TEXT = "😅 Ok Bie"
-    UPGRADE_TEXT = """MwK MegaBot Paid Plans
--------
-Plan: FREE
-Filesize limit: 1500 MB
-Daily limit: UNLIMITED
-Price 🌎: ₹ 0 / 30 Days
-FEATURES:
-👉 All Supported Video Formats of https, except HLS videos!
-👉 Get a Telegram sticker as a Telegram downloadable media.
-👉 Upload as file from any HTTP link, with custom thumbnail support.
-👉 Get Low Speed Direct Download Link of any Telegram file.
-
----@redbullfed----"""
+    UPGRADE_TEXT = """free as air"""
 
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
@@ -26,9 +14,9 @@ URL | filename | username | password"""
     UPLOAD_START = "Getting Closer to you... Uploading"
     RCHD_BOT_API_LIMIT = "Are You Kidding me (50MB) is your Allowed Limit, Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations 🙇‍♀️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please Join Our Movie Group 😌 @movieworldkdy"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nPlease Join My Music Group @mwksongs 😌."
-    NOT_AUTH_USER_TEXT = "You Aren't An Approved User Please must Upgrade the plan /upgrade."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "credit = tech guru not kuru"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "credit = tech guru not kuru"
+    NOT_AUTH_USER_TEXT = ""
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/redbullfed'>MwK Tech Support Group</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail Deleted succesfully."
@@ -82,8 +70,8 @@ You can use /rename command after receiving file to rename it with custom thumbn
     CANCEL_STR = "Process Cancelled 🙇‍♀️"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process 😔.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
+ only 1 request per 30 minutes.
+."""
     G_DRIVE_GIVE_URL_TO_LOGIN = "Please login using {}. Send `/gsetup <YOUR CODE>`"
     G_DRIVE_SETUP_IN_VALID_FORMAT = "Send `/gsetup <YOUR CODE>`"
     G_DRIVE_SETUP_COMPLETE = "Logged In."
