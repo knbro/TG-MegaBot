@@ -40,7 +40,7 @@ async def ffmpegrobot_ad(bot, update):
     )
 
 
-@pyrogram.Client.on_message(Filters.command(["trim"]))
+@Client.on_message(filters.command(["trim"]))
 async def trim(bot, update):
     TRChatBase(update.from_user.id, update.text, "trim")
     if str(update.from_user.id) not in Config.SUPER7X_DLBOT_USERS:
